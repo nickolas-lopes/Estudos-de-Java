@@ -15,6 +15,7 @@ public class salario {
 		double total =horas * sal_hora;
 		System.out.printf("NUMBER = %d%n", num);
 		System.out.printf("SALARY = U$ %.2f%n", total);
+		scan.close();
 	}
 
 }
