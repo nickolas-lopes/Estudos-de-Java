@@ -24,10 +24,10 @@ public class coordenadasPonto {
 				System.out.printf("Q4%n");
 			}
 			else if (x == 0 && y > 0 || y < 0) {
-				System.out.printf("Eixo X%n");
+				System.out.printf("Eixo Y%n");
 			}
 			else if (y == 0 && x > 0 || x < 0) {
-				System.out.printf("Eixo Y%n");
+				System.out.printf("Eixo X%n");
 			}
 			else {
 				System.out.printf("Origem%n");
